@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Room homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="flex flex_nav">
+        <button class="nav-toggler">
+          <img src="images/icon-hamburger.svg" alt="" aria-label="Open Nav" class="nav-open-icon">
+          <img src="images/icon-close.svg" alt="" aria-label="Close Nav" class="nav-close-icon">
+        </button>
+        <a href="#" class="logo-wrapper" aria-label="Room Brand Logo">
+          <img src="images/logo.svg" alt="Room Brand Logo">
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#" class="nav-list-link">Home</a></li>
+            <li class="nav-list-item"><a href="#" class="nav-list-link">Shop</a></li>
+            <li class="nav-list-item"><a href="#" class="nav-list-link">About</a></li>
+            <li class="nav-list-item"><a href="#" class="nav-list-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="slider grid">
+      <img src="images/desktop-image-hero-1.jpg" alt="" class="slider-img" id="slideImg">
+      <article class="slider-content">
+        <h1 class="title" id="slideTitle">
+          Discover innovative ways to decorate
+        </h1>
+        <p class="section-description" id="slideText">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <a href="#" class="btn btn-primary">Shop Now <span class="btn-icon"><img src="images/icon-arrow.svg"
+              alt=""></span></a>
+      </article>
+      <div class="slider-controls">
+        <div class="btn-prev">
+          <button class="btn slider-control" id="sliderPrevBtn"><img src="images/icon-angle-left.svg" alt=""></button>
+        </div>
+        <div class="btn-next">
+          <button class="btn slider-control" id="sliderNextBtn"><img src="images/icon-angle-right.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="grid">
+      <img src="images/image-about-dark.jpg" alt="" class="about-img">
+      <article class="about-content">
+        <h2 class="section-title">
+          About our furniture</h2>
+        <p class="section-description">
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </article>
+      <img src="images/image-about-light.jpg" alt="" class="about-img">
+    </div>
+  </section>
+
+</body>
+
+</html>
